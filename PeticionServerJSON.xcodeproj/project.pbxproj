@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		60AB8D891CF2358A00988635 /* PeticionServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeticionServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AB8D891CF2358A00988635 /* PeticionServerJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeticionServerJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AB8D8C1CF2358A00988635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60AB8D8E1CF2358A00988635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60AB8D911CF2358A00988635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		60AB8D8A1CF2358A00988635 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60AB8D891CF2358A00988635 /* PeticionServer.app */,
+				60AB8D891CF2358A00988635 /* PeticionServerJSON.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60AB8D881CF2358A00988635 /* PeticionServer */ = {
+		60AB8D881CF2358A00988635 /* PeticionServerJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60AB8D9B1CF2358A00988635 /* Build configuration list for PBXNativeTarget "PeticionServer" */;
+			buildConfigurationList = 60AB8D9B1CF2358A00988635 /* Build configuration list for PBXNativeTarget "PeticionServerJSON" */;
 			buildPhases = (
 				60AB8D851CF2358A00988635 /* Sources */,
 				60AB8D861CF2358A00988635 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = PeticionServer;
+			name = PeticionServerJSON;
 			productName = PeticionServer;
-			productReference = 60AB8D891CF2358A00988635 /* PeticionServer.app */;
+			productReference = 60AB8D891CF2358A00988635 /* PeticionServerJSON.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60AB8D841CF2358A00988635 /* Build configuration list for PBXProject "PeticionServer" */;
+			buildConfigurationList = 60AB8D841CF2358A00988635 /* Build configuration list for PBXProject "PeticionServerJSON" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60AB8D881CF2358A00988635 /* PeticionServer */,
+				60AB8D881CF2358A00988635 /* PeticionServerJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +254,7 @@
 				INFOPLIST_FILE = PeticionServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ERM.PeticionServer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeticionServerJSON;
 			};
 			name = Debug;
 		};
@@ -265,14 +265,14 @@
 				INFOPLIST_FILE = PeticionServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ERM.PeticionServer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PeticionServerJSON;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60AB8D841CF2358A00988635 /* Build configuration list for PBXProject "PeticionServer" */ = {
+		60AB8D841CF2358A00988635 /* Build configuration list for PBXProject "PeticionServerJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60AB8D991CF2358A00988635 /* Debug */,
@@ -281,13 +281,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60AB8D9B1CF2358A00988635 /* Build configuration list for PBXNativeTarget "PeticionServer" */ = {
+		60AB8D9B1CF2358A00988635 /* Build configuration list for PBXNativeTarget "PeticionServerJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60AB8D9C1CF2358A00988635 /* Debug */,
 				60AB8D9D1CF2358A00988635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
