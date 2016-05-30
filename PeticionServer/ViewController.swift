@@ -14,6 +14,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var lbl_autor: UILabel!
     @IBOutlet weak var lbl_titulo: UILabel!
     @IBOutlet weak var txt_search: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,6 +24,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func btn_clear(sender: AnyObject) {
+        self.txt_search.text = ""
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return false to ignore.

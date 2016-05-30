@@ -45,7 +45,7 @@
                                                         <rect key="frame" x="194" y="0.0" width="36" height="30"/>
                                                         <state key="normal" title="Clear"/>
                                                         <connections>
-                                                            <action selector="btn_clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3t-wa-zmy"/>
+                                                            <action selector="btn_clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6T3-bO-5C2"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
